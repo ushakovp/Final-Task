@@ -17,7 +17,7 @@ class BasePage(object):
         except (NoSuchElementException):
             return False
         return True
-        
+       
     def is_element_in_url(self, element):
         return element in self.browser.current_url
 
