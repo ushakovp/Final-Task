@@ -1,4 +1,2 @@
 __pycache__/
-__pycache__/__init__.cpython-37.pyc
-__pycache__/conftest.cpython-37-PYTEST.pyc
-__pycache__/test_main_page.cpython-37-PYTEST.pyc
+pages/__pycache__/
