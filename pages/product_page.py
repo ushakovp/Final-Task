@@ -8,8 +8,8 @@ class ProductPage(BasePage):
         btn = self.browser.find_element(*ProductPageLocators.ADD_TO_BASKET)
         btn.click()
         self.solve_quiz_and_get_code()
-        #self.should_be_description()
-        #self.should_be_right_price()
+        self.should_be_description()
+        self.should_be_price()
         
     
     def should_be_description(self):
