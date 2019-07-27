@@ -1,7 +1,9 @@
 import pytest
-from pages.main_page import MainPage
-from pages.login_page import LoginPage
+
 from pages.cart_page import CartPage
+from pages.login_page import LoginPage
+from pages.main_page import MainPage
+
 
 @pytest.mark.login_guest
 class TestLoginFromMainPage(object):
