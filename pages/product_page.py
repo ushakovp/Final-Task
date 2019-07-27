@@ -8,16 +8,10 @@ class ProductPage(BasePage):
         btn = self.browser.find_element(*ProductPageLocators.ADD_TO_BASKET)
         btn.click()
         self.solve_quiz_and_get_code()
-<<<<<<< HEAD
         self.should_be_description()
         self.should_be_price()
         
     
-=======
-        # self.should_be_description()
-        # self.should_be_right_price()
-
->>>>>>> 063beb751d3d84c8f766864565ad65ea21f8325e
     def should_be_description(self):
         # assert self.is_element_present(*ProductPageLocators.LOGIN_FORM), 'Login form is not present'
         alert_product_name = self.browser.find_element(*ProductPageLocators.ALERT_PRODUCT_NAME).text
